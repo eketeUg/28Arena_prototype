@@ -1,26 +1,4 @@
-// import GameCanvas from "./game/GameeCanvas";
-
-// export default function App() {
-//   return (
-//     <div
-//       style={{
-//         background: "black",
-//         color: "white",
-//         height: "100vh",
-//         display: "flex",
-//         flexDirection: "column",
-//         alignItems: "center",
-//         justifyContent: "center",
-//       }}
-//     >
-//       <h1>⚔️ Simple Fighting Prototype (TS)</h1>
-//       <GameCanvas />
-//       <p>Player1: A/D/W + SPACE | Player2: ←/→/↑ + ↓</p>
-//     </div>
-//   );
-// }
-
-import GameCanvas from "./game/GameeCanvas";
+import GameCanvas from "./game/GameCanvas";
 
 export default function App() {
   return (

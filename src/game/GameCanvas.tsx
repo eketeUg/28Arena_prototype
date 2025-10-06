@@ -1,32 +1,4 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-// import { useEffect } from "react";
-// import Phaser from "phaser";
-// import FightScene from "./scenes/FightScene";
-
-// export default function GameCanvas() {
-//   useEffect(() => {
-//     const config: Phaser.Types.Core.GameConfig = {
-//       type: Phaser.AUTO,
-//       width: 800,
-//       height: 450,
-//       backgroundColor: "#1a1a1a",
-//       parent: "phaser-container",
-//       physics: {
-//         default: "arcade",
-//         arcade: {
-//           gravity: { x: 0, y: 800 },
-//           debug: false,
-//         },
-//       },
-//       scene: [FightScene],
-//     };
-
-//     const game = new Phaser.Game(config);
-//     return () => game.destroy(true);
-//   }, []);
-
-//   return <div id="phaser-container" />;
-// }
 
 import React, { useEffect, useRef } from "react";
 import Phaser from "phaser";
