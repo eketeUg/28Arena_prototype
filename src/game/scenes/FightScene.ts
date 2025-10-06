@@ -31,7 +31,7 @@ export default class FightScene extends Phaser.Scene {
     // this.load.audio(
     //   "hit1",
     //   "/sfx/mixkit-strong-punches-to-the-body-2198.wav"
-    // );
+    // )
     this.load.audio("hit2", "/sfx/mixkit-impact-of-a-strong-punch-2155.mp3");
   }
 
