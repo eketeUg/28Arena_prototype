@@ -34,7 +34,7 @@ export default class FightScene extends Phaser.Scene {
     // );
     this.load.audio(
       "hit2",
-      "/src/assets/sfx/mixkit-impact-of-a-strong-punch-2155.mp3"
+      "/public/sfx/mixkit-impact-of-a-strong-punch-2155.mp3"
     );
   }
 
