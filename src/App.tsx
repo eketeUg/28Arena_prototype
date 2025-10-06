@@ -38,7 +38,7 @@ export default function App() {
         overflow: "hidden",
       }}
     >
-      <h1 style={{ marginBottom: "10px" }}>⚔️ Arena 28</h1>
+      <h1 style={{ marginBottom: "10px" }}>⚔️ Arena 28 test</h1>
       <div
         id="game-wrapper"
         style={{
