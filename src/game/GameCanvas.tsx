@@ -2,7 +2,7 @@
 
 import React, { useEffect, useRef } from "react";
 import Phaser from "phaser";
-import FightScene from "./scenes/FightScene";
+import FightScene from "./scenes/FightScene2";
 
 const GameCanvas: React.FC = () => {
   const gameRef = useRef<Phaser.Game | null>(null);
